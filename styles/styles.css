@@ -1,3 +1,5 @@
+/* styles.css */
+
 body {
     margin: 0;
     padding: 0;
@@ -61,3 +63,89 @@ img {
     background-color: #005bb5;
 }
 
+/* Estilos específicos para la página de inicio de sesión */
+.login-page {
+    background-color: #f0f8ff;
+    padding: 20px;
+}
+
+.login-page h1 {
+    color: #0074d9;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.login-form input[type="text"], .login-form input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form input[type="submit"] {
+    background-color: #0074d9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #005bb5;
+}
+
+/* styles.css */
+
+/* styles.css */
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+.white-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: #0074d9;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #005bb5;
+}
